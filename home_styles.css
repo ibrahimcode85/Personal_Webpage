@@ -1,31 +1,50 @@
 :root {
+  /* color scheme */
+  --main-bg-color: #f3f3f3;
   --header-bg-color: #ffffff;
-  --header-border-color: #dcdcdc;
+  --section-bg-color: #ffffff;
   --theme-color: #52a6c0;
-  --nav-link-color: #333;
-  --intro-bg-color: #e0f7fa;
   --text-primary-color: #333;
   --text-secondary-color: #666;
+
+  /* text scheme */
   --logo-font: "Satisfy", cursive;
+
+  /* layout setting */
+  --header-height: 75px;
+  --header-border-size: 5px;
+  --header-margin-size: 5px;
 }
 
+/* Common layout template */
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: var(--main-bg-color);
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 200px 10px 200px;
-  background-color: #ffffff;
+  height: 75px;
+  width: 80%;
+  margin: var(--header-margin-size);
+  background-color: var(--main-bg-color);
+  border-bottom: var(--header-border-size) solid var(--theme-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
   font-size: 50px;
   font-weight: 400;
+  padding-left: 15px;
   font-family: var(--logo-font);
   color: var(--theme-color);
 }
@@ -33,7 +52,7 @@ header {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-right: 15px;
   display: flex;
   font-size: 1.2rem;
 }
@@ -44,7 +63,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: var(--text-primary-color);
   font-weight: bold;
 }
 
@@ -52,21 +71,29 @@ nav ul li a:hover {
   color: var(--theme-color);
 }
 
+/* Content layout*/
 main {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  width: 80%;
+  height: calc(
+    100vh - var(--header-height) - var(--header-border-size) -
+      var(--header-margin-size) * 2
+  );
+  background-color: var(--main-bg-color);
+  box-shadow: 8px 3px 10px 6px rgba(0, 0, 0, 0.1);
+  /* background-image: url("assets/background_image.jpg"); */
+  /* background-size: cover; */
 }
 
 .intro {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: white;
-  border-top: 2px solid var(--theme-color);
-  box-shadow: 8px 3px 10px 6px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  padding: 100px 0px 0px 0px;
+  background-color: var(--section-bg-color);
+  opacity: 95%;
+  width: 100%;
+  padding-top: 100px;
 }
 
 .intro img {
@@ -83,12 +110,12 @@ main {
 .intro-text h1 {
   margin-top: 0px;
   font-size: 24px;
-  color: #333;
+  color: var(--text-primary-color);
 }
 
 .intro-text p {
   font-size: 16px;
-  color: #666;
+  color: var(--text-secondary-color);
   line-height: 1.5;
 }
 
