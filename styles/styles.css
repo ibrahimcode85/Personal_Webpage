@@ -1,0 +1,72 @@
+/* common styles for all pages */
+@import url("variables.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 80%;
+  margin: var(--header-margin-size);
+  background-color: var(--main-bg-color);
+  border-bottom: var(--header-border-size) solid var(--theme-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 400;
+  padding-left: 15px;
+  text-shadow: var(--logo-shadow);
+  font-family: var(--logo-font);
+  color: var(--theme-color);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-right: 15px;
+  display: flex;
+  font-size: 1.25rem;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+nav ul li a:hover {
+  color: var(--theme-color);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: calc(
+    100vh - var(--header-height) - var(--header-border-size) -
+      var(--header-margin-size) * 2
+  );
+  background-color: var(--main-bg-color);
+  box-shadow: var(--main-shadow-style);
+  /* background-image: url("assets/background_image.jpg"); */
+  /* background-size: cover; */
+}
