@@ -1,6 +1,6 @@
 /* Home Content layout*/
 @import url("variables.css");
-@import url("cv.css");
+@import url("career_cv.css");
 
 nav ul li a#career {
   text-decoration: underline;
