@@ -1,0 +1,253 @@
+/* Home Content layout*/
+@import url("variables.css");
+
+nav ul li a#career {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 5px;
+  color: var(--theme-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro,
+.key-skills,
+.technologies,
+.employment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.intro-text {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.intro-text p {
+  font-size: 16px;
+  color: var(--text-secondary-color);
+  line-height: 1.5;
+  padding-left: 15px;
+  width: 80%;
+}
+
+.intro-text a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+/* key skills section */
+.title-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary-color);
+  font-size: var(--textSize-section-title);
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+}
+
+.card-skills-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0px 10% 0px 10%;
+}
+
+.card-skills,
+.card-technologies,
+.card-employment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  border: var(--card-boder-style);
+  border-radius: 10px;
+  box-shadow: var(--main-shadow-style);
+  margin: 25px;
+  position: relative;
+}
+
+.card-technologies {
+  width: 60%;
+}
+
+.card-skills-header {
+  font-size: var(--textSize-card-title);
+  color: var(--text-primary-color);
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
+}
+
+.card-skills-banner {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.card-skills-banner.actuarial {
+  background-color: #a1eddf;
+}
+.card-skills-banner.reporting {
+  background-color: #e2a1ed;
+}
+.card-skills-banner.prophet {
+  background-color: #eda1aa;
+}
+.card-skills-banner.tools {
+  background-color: #a1dfed;
+}
+
+.card-skills-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: var(--section-bg-color);
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+.card-skills-img {
+  height: 60px;
+}
+
+.card-skills-text {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 25px 25px 25px;
+}
+
+.card-skills-text p {
+  font-size: 16px;
+  color: var(--text-secondary-color);
+  margin: 0px;
+  line-height: 1.5;
+}
+
+/* for technologies & tools display ------------------------------->*/
+.card-technologies-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 25px;
+}
+.card-technologies-row {
+  display: flex;
+  border-bottom: 2px solid #b9b9b9;
+}
+
+.card-technologies-table .card-technologies-row:first-child {
+  border-top: 2px solid #b9b9b9;
+}
+
+.card-technologies-row .label {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  min-width: 250px;
+  padding: 5px;
+  font-size: var(--textSize-card-title);
+  color: var(--text-primary-color);
+  font-weight: bold;
+}
+
+.card-technologies-row .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+}
+
+.content-child {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #b9b9b9; /* Dark grey background 777777 */
+  color: #fff; /* White text */
+  height: fit-content;
+}
+
+/* for employment history display ----------------------------------->*/
+.card-employment-table {
+  background-color: white;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+}
+
+.card-employment-table .timeline {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card-employment-table .timeline:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 20px;
+  width: 2px;
+  background: #e1e1e1;
+}
+
+.card-employment-table .timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+.card-employment-table .timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.card-employment-table .timeline-item:before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--theme-color);
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px var(--theme-color);
+}
+
+.card-employment-table .timeline-item .date {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: var(--theme-color);
+  margin-bottom: 5px;
+}
+
+.card-employment-table .timeline-item .employer,
+.card-employment-table .timeline-item .position {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-secondary-color);
+  line-height: 1.5;
+}
+
+.card-employment-table .timeline-item .employer {
+  font-weight: bold;
+}

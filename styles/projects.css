@@ -1,0 +1,145 @@
+/* Home Content layout*/
+@import url("variables.css");
+
+nav ul li a#projects {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 5px;
+  color: var(--theme-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro,
+.self-learning,
+.personal-projects,
+.future-exploration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--section-bg-color);
+  opacity: 95%; */
+  width: 100%;
+  margin-top: 15px;
+}
+
+.intro-text {
+  display: flex;
+  justify-content: center;
+}
+.intro-text p {
+  font-size: 16px;
+  color: var(--text-secondary-color);
+  line-height: 1.5;
+  padding-left: 15px;
+  width: 80%;
+}
+
+/* self-learning sections */
+.title-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary-color);
+  font-size: var(--textSize-section-title);
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+}
+
+.card-learn-wrapper,
+.card-projects-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0px 10% 0px 10%;
+}
+
+.card-future-exploration-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-learn,
+.card-projects,
+.card-future-exploration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  border: var(--card-boder-style);
+  box-shadow: var(--main-shadow-style);
+  padding: 25px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.card-future-exploration {
+  width: 60%;
+}
+
+.card-learn-header,
+.card-projects-header,
+.card-future-exploration-header {
+  font-size: var(--textSize-card-title);
+  color: var(--text-primary-color);
+  font-weight: bold;
+  margin: 15px 0px 15px 0px;
+}
+
+.card-learn-img,
+.card-projects-img {
+  height: 200px;
+  object-fit: scale-down;
+}
+
+.card-learn-text,
+.card-projects-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-learn-text p,
+.card-projects-text p,
+.card-future-exploration p {
+  font-size: 16px;
+  color: var(--text-secondary-color);
+  margin: 0px;
+  line-height: 1.5;
+}
+
+/* General tag style */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #b9b9b9; /* Dark grey background 777777 */
+  color: #fff; /* White text */
+}
+
+.card-projects-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.card-projects-links a:hover {
+  text-decoration: none;
+}
+
+.card-projects-links img {
+  width: 32px;
+  height: 32px;
+  margin: 0px 10px 0px 10px;
+  box-shadow: none;
+}

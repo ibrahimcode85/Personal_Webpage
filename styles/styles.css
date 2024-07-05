@@ -19,6 +19,7 @@ header {
   width: 80%;
   margin: var(--header-margin-size);
   background-color: var(--main-bg-color);
+  /* opacity: 100%; */
   border-bottom: var(--header-border-size) solid var(--theme-color);
   position: sticky;
   top: 0;
@@ -58,14 +59,14 @@ nav ul li a:hover {
 }
 
 main {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   width: 80%;
-  height: calc(
+  min-height: calc(
     100vh - var(--header-height) - var(--header-border-size) -
       var(--header-margin-size) * 2
   );
-  background-color: var(--main-bg-color);
+  background-color: var(--section-bg-color);
   box-shadow: var(--main-shadow-style);
   /* background-image: url("assets/background_image.jpg"); */
   /* background-size: cover; */
