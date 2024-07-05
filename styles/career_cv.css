@@ -12,7 +12,6 @@
 .cv-card {
   max-width: 900px;
   margin: auto;
-  background-color: white;
   padding: 40px;
   border-radius: 10px;
   border: var(--card-boder-style);
@@ -56,6 +55,7 @@
 .profile-header .intro-text {
   display: inline;
   font-weight: normal;
+  padding: 0;
 }
 
 .section {
