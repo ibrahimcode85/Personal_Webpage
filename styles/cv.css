@@ -1,19 +1,23 @@
 @import url("variables.css");
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f3f2ef;
-  margin: 0;
-  padding: 20px;
+.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
 }
 
-.cv-container {
+.cv-card {
   max-width: 900px;
   margin: auto;
   background-color: white;
   padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: var(--card-boder-style);
+  box-shadow: var(--main-shadow-style);
+  margin: 25px;
 }
 
 .profile-header .title {
@@ -39,6 +43,10 @@ body {
   line-height: 1.25;
 }
 
+.profile-header .contact {
+  margin-bottom: 15px;
+}
+
 .sentence-break {
   color: var(--theme-color);
   font-weight: bolder;
@@ -46,8 +54,8 @@ body {
 }
 
 .profile-header .intro-text {
+  display: inline;
   font-weight: normal;
-  margin-top: 15px;
 }
 
 .section {
