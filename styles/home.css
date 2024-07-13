@@ -15,7 +15,6 @@ nav ul li a#home {
   flex-wrap: wrap;
   background-color: var(--section-bg-color);
   opacity: 95%;
-  width: 100%;
   padding-top: 100px;
 }
 
