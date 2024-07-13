@@ -9,6 +9,10 @@
   margin-top: 15px;
 }
 
+.cv .title-text {
+  margin-top: 30px;
+}
+
 .cv-card {
   max-width: 900px;
   margin: auto;
