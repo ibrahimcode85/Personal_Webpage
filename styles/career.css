@@ -38,7 +38,7 @@ main {
   color: var(--text-secondary-color);
   line-height: 1.5;
   padding-left: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .intro-text a {
@@ -74,7 +74,6 @@ main {
   align-items: center;
   width: 40%;
   min-width: 320px; /* Minimum width for the card */
-  max-width: 420px; /* Maximum width for the card */
   flex-grow: 1; /* Allow cards to grow */
   border: var(--card-boder-style);
   border-radius: 10px;
@@ -312,10 +311,13 @@ input:checked + .slider:before {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .card-skills,
   .card-technologies,
   .card-employment {
-    width: 100%; /* Make the card take full width */
+    width: 80%; /* Make the card width bigger */
+  }
+  .card-technologies-row {
+    flex-direction: column;
   }
 }
