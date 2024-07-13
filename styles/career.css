@@ -10,10 +10,7 @@ nav ul li a#career {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
+  position: relative; /*to position cv toggle switch as relative*/
 }
 
 .intro,
@@ -24,7 +21,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   margin-top: 15px;
 }
 
@@ -55,7 +51,6 @@ main {
   font-size: var(--textSize-section-title);
   font-weight: bold;
   margin: 15px 0px 15px 0px;
-  width: 100%;
 }
 
 .card-skills-wrapper {
@@ -316,8 +311,13 @@ input:checked + .slider:before {
   .card-technologies,
   .card-employment {
     width: 80%; /* Make the card width bigger */
+    min-width: 280px;
   }
   .card-technologies-row {
     flex-direction: column;
+  }
+
+  .card-skills-wrapper {
+    padding: 0px;
   }
 }
