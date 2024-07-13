@@ -8,12 +8,6 @@ nav ul li a#projects {
   color: var(--theme-color);
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .intro,
 .self-learning,
 .personal-projects,
@@ -22,7 +16,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   margin-top: 15px;
 }
 
@@ -48,7 +41,6 @@ main {
   font-size: var(--textSize-section-title);
   font-weight: bold;
   margin: 15px 0px 15px 0px;
-  width: 100%;
 }
 
 .card-learn-wrapper,
