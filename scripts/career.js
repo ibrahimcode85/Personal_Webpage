@@ -1,16 +1,3 @@
-// Start of header related functions ----------------------------
-
-function toggleMenu() {
-  const nav = document.querySelector("nav ul");
-  if (nav.style.display === "flex") {
-    nav.style.display = "none";
-  } else {
-    nav.style.display = "flex";
-  }
-}
-
-// end of Header related functions----------------------------
-
 function hideCV() {
   const cvElement = document.querySelector(".cv");
   cvElement.style.display = "none";
