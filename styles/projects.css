@@ -58,6 +58,10 @@ nav ul li a#projects {
   align-items: center;
 }
 
+.card-projects-tags-wrapper {
+  margin-top: 15px;
+}
+
 .card-learn,
 .card-projects,
 .card-future-exploration,
@@ -137,7 +141,7 @@ nav ul li a#projects {
 .card-projects-links {
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .card-projects-links a:hover {
