@@ -7,18 +7,12 @@ nav ul li a#interests {
   color: var(--theme-color);
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .activity {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 15px;
 }
 
@@ -42,7 +36,6 @@ main {
   font-size: var(--textSize-section-title);
   font-weight: bold;
   margin: 15px 0px 0pxpx 0px;
-  width: 100%;
 }
 
 .card .intro-text,
@@ -72,12 +65,14 @@ main {
 .card img {
   width: 80%;
   object-fit: cover;
+  min-width: 280px;
   box-shadow: var(--main-shadow-style);
 }
 
 .card iframe {
   width: 80%;
   height: 415px;
+  min-width: 280px;
   box-shadow: var(--main-shadow-style);
   border: none;
 }
@@ -88,4 +83,29 @@ main {
   align-items: center;
   margin: 25px;
   padding: 15px;
+}
+
+/* Media query for smaller screens */
+@media (min-width: 420px) and (max-width: 768px) {
+  .card,
+  .card .img-wrapper {
+    padding: 15px 20px;
+  }
+
+  .card {
+    width: unset;
+  }
+}
+
+/* For even smaller size. Reduce more margin size for projects card. */
+@media (max-width: 420px) {
+  .card,
+  .card .img-wrapper {
+    padding: 15px 5px;
+    margin: 25px 5px;
+  }
+
+  .card {
+    width: unset;
+  }
 }

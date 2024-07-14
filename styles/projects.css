@@ -98,6 +98,10 @@ nav ul li a#projects {
   object-fit: scale-down;
 }
 
+.card-projects-img {
+  margin-bottom: 15px;
+}
+
 .card-projects-placeholder .card-projects-img {
   height: 200px;
   object-fit: scale-down;
