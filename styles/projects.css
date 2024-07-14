@@ -119,11 +119,25 @@ nav ul li a#projects {
 
 .card-learn-text p,
 .card-projects-text p,
-.card-future-exploration p {
+.card-future-exploration ul {
   font-size: 16px;
   color: var(--text-secondary-color);
   margin: 0px;
   line-height: 1.5;
+}
+
+.card-future-exploration ul {
+  margin: 0px 0px 15px 0px;
+}
+
+.card-future-exploration li {
+  margin-top: 5px;
+}
+
+.sentence-break {
+  color: var(--theme-color);
+  font-weight: bolder;
+  padding: 0px 2px 0px 2px;
 }
 
 /* General tag style */
