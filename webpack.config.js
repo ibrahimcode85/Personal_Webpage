@@ -7,7 +7,8 @@ module.exports = {
     career: "./src/bundler_js/career_bundler.js",
     projects: "./src/bundler_js/projects_bundler.js",
     interests: "./src/bundler_js/interests_bundler.js",
-    interests_sub: "./src/bundler_js/interestsSub_bundler.js",
+    interests_sub1: "./src/bundler_js/interests_lap1_bundler.js",
+    interests_sub2: "./src/bundler_js/interests_stoosRidgeHike_bundler.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -54,12 +55,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/interests_subpages/interests_lap1.html",
       filename: "interests_subpages/interests_lap1.html",
-      chunks: ["interests_sub"],
+      chunks: ["interests_sub1"],
     }),
     new HtmlWebpackPlugin({
       template: "./src/interests_subpages/interests_stoosRidgeHike.html",
       filename: "interests_subpages/interests_stoosRidgeHike.html",
-      chunks: ["interests_sub"],
+      chunks: ["interests_sub2"],
     }),
     // // Add HtmlWebpackPlugin instances for each interests_subpages HTML file
     // new HtmlWebpackPlugin({
