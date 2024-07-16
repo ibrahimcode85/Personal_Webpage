@@ -6,7 +6,7 @@ module.exports = {
     home: "./src/bundler_js/index.js",
     career: "./src/bundler_js/career_bundler.js",
     projects: "./src/bundler_js/projects_bundler.js",
-    // interests: "./src/interests.js",
+    interests: "./src/bundler_js/interests_bundler.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -45,10 +45,11 @@ module.exports = {
       filename: "projects.html",
       chunks: ["projects"],
     }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests.html",
-    //   filename: "interests.html",
-    // }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests.html",
+      filename: "interests.html",
+      chunks: ["interests"],
+    }),
     // // Add HtmlWebpackPlugin instances for each interests_subpages HTML file
     // new HtmlWebpackPlugin({
     //   template: "./src/interests_subpages/interests_kapasMarangSwimathon.html",
