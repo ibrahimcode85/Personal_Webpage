@@ -7,6 +7,7 @@ module.exports = {
     career: "./src/bundler_js/career_bundler.js",
     projects: "./src/bundler_js/projects_bundler.js",
     interests: "./src/bundler_js/interests_bundler.js",
+    interests_sub: "./src/bundler_js/interestsSub_bundler.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -50,6 +51,16 @@ module.exports = {
       filename: "interests.html",
       chunks: ["interests"],
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_lap1.html",
+      filename: "interests_subpages/interests_lap1.html",
+      chunks: ["interests_sub"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_stoosRidgeHike.html",
+      filename: "interests_subpages/interests_stoosRidgeHike.html",
+      chunks: ["interests_sub"],
+    }),
     // // Add HtmlWebpackPlugin instances for each interests_subpages HTML file
     // new HtmlWebpackPlugin({
     //   template: "./src/interests_subpages/interests_kapasMarangSwimathon.html",
@@ -59,10 +70,7 @@ module.exports = {
     //   template: "./src/interests_subpages/interests_langkawiSwimFest.html",
     //   filename: "interests_subpages/interests_langkawiSwimFest.html",
     // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_lap1.html",
-    //   filename: "interests_subpages/interests_lap1.html",
-    // }),
+
     // new HtmlWebpackPlugin({
     //   template: "./src/interests_subpages/interests_OWSClinic.html",
     //   filename: "interests_subpages/interests_OWSClinic.html",
@@ -80,10 +88,7 @@ module.exports = {
     //     "./src/interests_subpages/interests_PulauTenggolDivingTrip.html",
     //   filename: "interests_subpages/interests_PulauTenggolDivingTrip.html",
     // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_stoosRidgeHike.html",
-    //   filename: "interests_subpages/interests_stoosRidgeHike.html",
-    // }),
+
     // new HtmlWebpackPlugin({
     //   template: "./src/interests_subpages/interests_swimSquad.html",
     //   filename: "interests_subpages/interests_swimSquad.html",
