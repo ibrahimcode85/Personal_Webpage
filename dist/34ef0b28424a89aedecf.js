@@ -1,0 +1,1 @@
+function toggleMenu(){const e=document.querySelector("nav ul");"flex"===e.style.display?e.style.display="none":e.style.display="flex"}document.querySelector(".menu-icon").addEventListener("click",toggleMenu);

@@ -7,3 +7,5 @@ function toggleMenu() {
     nav.style.display = "flex";
   }
 }
+
+document.querySelector(".menu-icon").addEventListener("click", toggleMenu);
