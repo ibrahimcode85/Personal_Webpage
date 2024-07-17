@@ -13,7 +13,7 @@ import langkawi2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_P
 import IMG_3293 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Kapas_Marang_Swimathon\\IMG_3293.jpg";
 import IMG_3155 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_03_PD_FreeAndEasy_SelfTraining\\IMG_3155.jpg";
 import pdClassic1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_02_PD_Classic\\6b2ed861-61b5-4804-9987-622d30a213ea.jpg";
-import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_01_PD_OWS_Clinic\\IMG_3048.JPG";
+import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_01_PD_OWS_Clinic\\IMG_3048.jpg";
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page

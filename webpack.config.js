@@ -9,6 +9,17 @@ module.exports = {
     interests: "./src/bundler_js/interests_bundler.js",
     interests_sub1: "./src/bundler_js/interests_lap1_bundler.js",
     interests_sub2: "./src/bundler_js/interests_stoosRidgeHike_bundler.js",
+    interests_sub3: "./src/bundler_js/interests_tripSwiss_bundler.js",
+    interests_sub4: "./src/bundler_js/interests_tripFrance_bundler.js",
+    interests_sub5: "./src/bundler_js/interests_langkawiSwimFest_bundler.js",
+    interests_sub6:
+      "./src/bundler_js/interests_pulauTenggolDivingTrip_bundler.js",
+    interests_sub7:
+      "./src/bundler_js/interests_kapasMarangSwimathon_bundler.js",
+    interests_sub8: "./src/bundler_js/interests_PDFreeAndEasy_bundler.js",
+    interests_sub9: "./src/bundler_js/interests_PDClassic_bundler.js",
+    interests_sub10: "./src/bundler_js/interests_OWSClinic_bundler.js",
+    interests_sub11: "./src/bundler_js/interests_swimSquad_bundler.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -62,45 +73,52 @@ module.exports = {
       filename: "interests_subpages/interests_stoosRidgeHike.html",
       chunks: ["interests_sub2"],
     }),
-    // // Add HtmlWebpackPlugin instances for each interests_subpages HTML file
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_kapasMarangSwimathon.html",
-    //   filename: "interests_subpages/interests_kapasMarangSwimathon.html",
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_langkawiSwimFest.html",
-    //   filename: "interests_subpages/interests_langkawiSwimFest.html",
-    // }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_tripSwiss.html",
+      filename: "interests_subpages/interests_tripSwiss.html",
+      chunks: ["interests_sub3"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_tripFrance.html",
+      filename: "interests_subpages/interests_tripFrance.html",
+      chunks: ["interests_sub4"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_langkawiSwimFest.html",
+      filename: "interests_subpages/interests_langkawiSwimFest.html",
+      chunks: ["interests_sub5"],
+    }),
+    new HtmlWebpackPlugin({
+      template:
+        "./src/interests_subpages/interests_PulauTenggolDivingTrip.html",
+      filename: "interests_subpages/interests_PulauTenggolDivingTrip.html",
+      chunks: ["interests_sub6"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_kapasMarangSwimathon.html",
+      filename: "interests_subpages/interests_kapasMarangSwimathon.html",
+      chunks: ["interests_sub7"],
+    }),
 
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_OWSClinic.html",
-    //   filename: "interests_subpages/interests_OWSClinic.html",
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_PDClassic.html",
-    //   filename: "interests_subpages/interests_PDClassic.html",
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_PDFreeAndEasy.html",
-    //   filename: "interests_subpages/interests_PDFreeAndEasy.html",
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template:
-    //     "./src/interests_subpages/interests_PulauTenggolDivingTrip.html",
-    //   filename: "interests_subpages/interests_PulauTenggolDivingTrip.html",
-    // }),
-
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_swimSquad.html",
-    //   filename: "interests_subpages/interests_swimSquad.html",
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_tripFrance.html",
-    //   filename: "interests_subpages/interests_tripFrance.html",
-    // }),
-    // new HtmlWebpackPlugin({
-    //   template: "./src/interests_subpages/interests_tripSwiss.html",
-    //   filename: "interests_subpages/interests_tripSwiss.html",
-    // }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_PDFreeAndEasy.html",
+      filename: "interests_subpages/interests_PDFreeAndEasy.html",
+      chunks: ["interests_sub8"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_PDClassic.html",
+      filename: "interests_subpages/interests_PDClassic.html",
+      chunks: ["interests_sub9"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_OWSClinic.html",
+      filename: "interests_subpages/interests_OWSClinic.html",
+      chunks: ["interests_sub10"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_swimSquad.html",
+      filename: "interests_subpages/interests_swimSquad.html",
+      chunks: ["interests_sub11"],
+    }),
   ],
 };
