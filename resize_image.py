@@ -1,30 +1,44 @@
-from PIL import Image
 import os
+from PIL import Image
 
-# Function to change image quality and save it
-def change_image_quality(image_path, output_path, quality=50):
-    with Image.open(image_path) as img:
-        # Save with new quality
-        img.save(output_path, quality=quality, optimize=True)
+def process_images(directory):
+    modified_images = []
 
-# Read image paths from text file
-ImageListPath = r'C:\Users\ibrah\OneDrive\Documents\Personal_Webpage\image_list.txt'
-with open(ImageListPath, 'r') as file:
-    image_paths = file.readlines()
+    # Step 1: Go to the directory defined by the user
+    os.chdir(directory)
 
-# Process each image
-for image_path in image_paths:
-    image_path = image_path.strip()  # Remove any extra whitespace or newline characters
-    if os.path.isfile(image_path):
-        # Check the file size
-        file_size = os.path.getsize(image_path)
-        if file_size > 1 * 1024 * 1024:  # Check if file size is greater than 1MB
-            # Construct the new file name
-            base, ext = os.path.splitext(image_path)
-            new_image_path = base + "_2" + ext
-            change_image_quality(image_path, new_image_path)
-            print(f"Processed: {image_path}")
-        else:
-            print(f"Skipped (File size less than 1MB): {image_path}")
+    # Step 2: Loop through all the files in the directory
+    for file_name in os.listdir(directory):
+        file_path = os.path.join(directory, file_name)
+        
+        # Step 3: Check if the file is an image
+        if os.path.isfile(file_path) and file_name.lower().endswith(('png', 'svg', 'jpg', 'jpeg', 'gif')):
+            file_size = os.path.getsize(file_path) / (1024 * 1024)  # Convert size to MB
 
-print("All applicable images processed successfully.")
+            if file_size < 1:
+                # Step 4: If the image file size is less than 1MB, do nothing
+                continue
+            elif 1 <= file_size <= 2:
+                # Step 5: If the image file size is between 1MB and 2MB, set the image quality to 60%
+                quality = 60
+            elif file_size > 2:
+                # Step 6: If the image file size is bigger than 2MB, set the quality to 50%
+                quality = 50
+
+            # Open the image and save it with the new quality
+            with Image.open(file_path) as img:
+                original_size = os.path.getsize(file_path)
+                img.save(file_path, quality=quality, optimize=True)
+                updated_size = os.path.getsize(file_path)
+                
+                # Step 7: List down all the modified images
+                modified_images.append(f"{file_name} | {original_size / 1024:.2f} KB | {updated_size / 1024:.2f} KB")
+
+    # Save the list of modified images to a .txt file
+    with open("modified_images.txt", "w") as log_file:
+        for line in modified_images:
+            log_file.write(line + "\n")
+
+# Example usage
+directory = r"C:\Users\ibrah\OneDrive\Documents\Personal_Webpage\dist"
+process_images(directory)
