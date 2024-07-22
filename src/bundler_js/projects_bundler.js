@@ -8,6 +8,7 @@ import datacampLogo from "../assets/projects/datacamp-svgrepo-com.svg";
 import topLogo from "../assets/projects/TOP-logo2.jpeg";
 import webImage from "../assets/projects/img_website_proj.jpg";
 import webIcon from "../assets/projects/web.svg";
+import diskIcon from "../assets/projects/zip-disk.svg";
 import githubIcon from "../assets/home/github-mark.png";
 import personalWebIcon from "../assets/projects/img_personalWeb_projects.jpg";
 import todoImage from "../assets/projects/img_todo_proj.jpg";
@@ -37,6 +38,7 @@ document
 // set image source for repeating icons (such as github and web)
 const elementsGitHub = document.querySelectorAll("#github-mark");
 const elementsWeb = document.querySelectorAll("#web");
+const elementsDisk = document.querySelectorAll("#disk");
 
 elementsGitHub.forEach((element) => {
   element.setAttribute("src", githubIcon);
@@ -44,4 +46,8 @@ elementsGitHub.forEach((element) => {
 
 elementsWeb.forEach((element) => {
   element.setAttribute("src", webIcon);
+});
+
+elementsDisk.forEach((element) => {
+  element.setAttribute("src", diskIcon);
 });

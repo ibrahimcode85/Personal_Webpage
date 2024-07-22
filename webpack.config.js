@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
-    home: "./src/bundler_js/index.js",
+    index: "./src/bundler_js/index.js",
     career: "./src/bundler_js/career_bundler.js",
     projects: "./src/bundler_js/projects_bundler.js",
     interests: "./src/bundler_js/interests_bundler.js",
@@ -44,9 +44,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/home.html",
-      filename: "home.html",
-      chunks: ["home"],
+      template: "./src/index.html",
+      filename: "index.html",
+      chunks: ["index"],
     }),
     new HtmlWebpackPlugin({
       template: "./src/career.html",

@@ -96,6 +96,11 @@ nav ul li a#projects {
   margin: 15px 0px 15px 0px;
 }
 
+.card-learn-header {
+  display: flex;
+  align-items: center;
+}
+
 .card-learn-img,
 .card-projects-img {
   height: 200px;
@@ -167,6 +172,13 @@ nav ul li a#projects {
   height: 32px;
   margin: 0px 10px 0px 10px;
   box-shadow: none;
+}
+
+.card-learn-links img {
+  width: 25px;
+  height: 25px;
+  box-shadow: none;
+  margin-left: 10px;
 }
 
 /* Media query for smaller screens */

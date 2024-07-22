@@ -15,15 +15,15 @@ def process_images(directory):
         if os.path.isfile(file_path) and file_name.lower().endswith(('png', 'svg', 'jpg', 'jpeg', 'gif')):
             file_size = os.path.getsize(file_path) / (1024 * 1024)  # Convert size to MB
 
-            if file_size < 1:
+            if file_size < 0.5:
                 # Step 4: If the image file size is less than 1MB, do nothing
                 continue
-            elif 1 <= file_size <= 2:
+            elif 0.5 <= file_size <= 2:
                 # Step 5: If the image file size is between 1MB and 2MB, set the image quality to 60%
-                quality = 60
+                quality = 50
             elif file_size > 2:
                 # Step 6: If the image file size is bigger than 2MB, set the quality to 50%
-                quality = 50
+                quality = 40
 
             # Open the image and save it with the new quality
             with Image.open(file_path) as img:
