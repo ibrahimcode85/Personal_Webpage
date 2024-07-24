@@ -10,6 +10,7 @@ import webImage from "../assets/projects/img_website_proj.jpg";
 import webIcon from "../assets/projects/web.svg";
 import diskIcon from "../assets/projects/zip-disk.svg";
 import githubIcon from "../assets/home/github-mark.png";
+import jupyterIcon from "../assets/projects/jupyter-icon.png";
 import personalWebIcon from "../assets/projects/img_personalWeb_projects.jpg";
 import todoImage from "../assets/projects/img_todo_proj.jpg";
 import predImage from "../assets/projects/img_predictive_proj.jpg";
@@ -39,6 +40,7 @@ document
 const elementsGitHub = document.querySelectorAll("#github-mark");
 const elementsWeb = document.querySelectorAll("#web");
 const elementsDisk = document.querySelectorAll("#disk");
+const elementsJupyter = document.querySelectorAll("#jupyter");
 
 elementsGitHub.forEach((element) => {
   element.setAttribute("src", githubIcon);
@@ -50,4 +52,8 @@ elementsWeb.forEach((element) => {
 
 elementsDisk.forEach((element) => {
   element.setAttribute("src", diskIcon);
+});
+
+elementsJupyter.forEach((element) => {
+  element.setAttribute("src", jupyterIcon);
 });
