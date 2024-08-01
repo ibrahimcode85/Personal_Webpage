@@ -6,7 +6,8 @@ import "../scripts/main.js";
 // Import images
 import datacampLogo from "../assets/projects/datacamp-svgrepo-com.svg";
 import topLogo from "../assets/projects/TOP-logo2.jpeg";
-import webImage from "../assets/projects/img_website_proj.jpg";
+import webImage from "C:\\Users\\ibrah\\OneDrive\\Documents\\Projects\\life_cf_app\\public\\assets\\main-img-wide-jpg.jpg";
+// "../assets/projects/img_website_proj.jpg";
 import webIcon from "../assets/projects/web.svg";
 import diskIcon from "../assets/projects/zip-disk.svg";
 import githubIcon from "../assets/home/github-mark.png";

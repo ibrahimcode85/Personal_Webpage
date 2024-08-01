@@ -128,3 +128,13 @@ li.skill {
   color: var(--text-secondary-color);
   line-height: 1.25;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .cv-card {
+    padding: 25px;
+  }
+  .section ul {
+    padding-left: 15px;
+  }
+}

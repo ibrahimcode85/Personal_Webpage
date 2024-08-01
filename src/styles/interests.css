@@ -44,7 +44,7 @@ nav ul li a#interests {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
+  /* width: 300px; */
   border: var(--card-boder-style);
   box-shadow: var(--main-shadow-style);
   padding: 25px;
@@ -53,7 +53,7 @@ nav ul li a#interests {
 }
 
 .card-upcoming {
-  width: 60%;
+  /* width: 60%; */
   align-items: flex-start;
 }
 
@@ -134,6 +134,10 @@ nav ul li a#interests {
 
 /* Media query for smaller screens */
 @media (min-width: 420px) and (max-width: 768px) {
+  .card-upcoming-text ul {
+    padding-left: 15px;
+  }
+
   .card-past {
     padding: 25px 20px;
   }
@@ -141,6 +145,10 @@ nav ul li a#interests {
 
 /* For even smaller size. Reduce more margin size for projects card. */
 @media (max-width: 420px) {
+  .card-upcoming-text ul {
+    padding-left: 15px;
+  }
+
   .card-past {
     padding: 25px 5px;
     margin: 25px 5px;

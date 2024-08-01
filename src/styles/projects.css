@@ -59,6 +59,9 @@ nav ul li a#projects {
 }
 
 .card-projects-tags-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 15px;
 }
 
