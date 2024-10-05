@@ -21,6 +21,8 @@ module.exports = {
     interests_sub10: "./src/bundler_js/interests_OWSClinic_bundler.js",
     interests_sub11: "./src/bundler_js/interests_swimSquad_bundler.js",
     interests_sub12: "./src/bundler_js/interests_oneHUndredHoursPT.js",
+    interests_sub13:
+      "./src/bundler_js/interests_perhentianChallenge_bundler.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -125,6 +127,11 @@ module.exports = {
       template: "./src/interests_subpages/interests_oneHundredHoursPT.html",
       filename: "interests_subpages/interests_oneHundredHoursPT.html",
       chunks: ["interests_sub12"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_perhentianChallenge.html",
+      filename: "interests_subpages/interests_perhentianChallenge.html",
+      chunks: ["interests_sub13"],
     }),
   ],
 };

@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_perhentian from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_10_PerhentianChallenge\\b5a1553d-d74f-4369-9361-3661611e4412.jpg";
 import IMG_3920_jpg from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_08_100H_StrengthTraining\\IMG_3920_jpg.jpg";
 import lap1_image from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_07_Lap1_FreeDiving_Cert\\lap1_image.jpg";
 import GOPR0208 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Europe Trip 2024\\Stoos_Hiking\\GOPR0208.jpg";
@@ -18,6 +19,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_01_PD
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("b5a1553d-d74f-4369-9361-3661611e4412")
+  .setAttribute("src", img_perhentian);
 document.getElementById("IMG_3920_jpg").setAttribute("src", IMG_3920_jpg);
 document.getElementById("lap1_image").setAttribute("src", lap1_image);
 document.getElementById("GOPR0208").setAttribute("src", GOPR0208);
