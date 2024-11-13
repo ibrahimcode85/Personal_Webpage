@@ -71,7 +71,7 @@ nav ul li a#interests {
 
 .card iframe {
   width: 80%;
-  height: 415px;
+  /* height: 415px; */
   min-width: 280px;
   box-shadow: var(--main-shadow-style);
   border: none;
