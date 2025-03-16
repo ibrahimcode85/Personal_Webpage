@@ -4,22 +4,22 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
-import img_dnfWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_12_17_DNF_Workshop_Penang\\f1ac2bd2ad211b23745a073df3dc3d01.jpg";
-import img_mfc24 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_11_MFC_FreeDiving\\ef40bb82-cf50-49e6-be3f-493e52266c39.jpg";
-import img_compTraining from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_10_CompetitiveTraining_FreeDiving\\35b80cf2-e23a-4d66-8f3f-1ca3555db9c2.jpg";
-import img_perhentian from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_10_PerhentianChallenge\\b5a1553d-d74f-4369-9361-3661611e4412.jpg";
-import IMG_3920_jpg from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_08_100H_StrengthTraining\\IMG_3920_jpg.jpg";
-import lap1_image from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_07_Lap1_FreeDiving_Cert\\lap1_image.jpg";
+import img_dnfWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_12_17_DNF_Workshop_Penang\\f1ac2bd2ad211b23745a073df3dc3d01.jpg";
+import img_mfc24 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_11_MFC_FreeDiving\\ef40bb82-cf50-49e6-be3f-493e52266c39.jpg";
+import img_compTraining from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_10_CompetitiveTraining_FreeDiving\\35b80cf2-e23a-4d66-8f3f-1ca3555db9c2.jpg";
+import img_perhentian from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_10_PerhentianChallenge\\b5a1553d-d74f-4369-9361-3661611e4412.jpg";
+import IMG_3920_jpg from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_08_100H_StrengthTraining\\IMG_3920_jpg.jpg";
+import lap1_image from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_07_Lap1_FreeDiving_Cert\\lap1_image.jpg";
 import GOPR0208 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Europe Trip 2024\\Stoos_Hiking\\GOPR0208.jpg";
 import IMG_3610_jpg from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Europe Trip 2024\\Grindelwald\\IMG_3610_jpg.jpg";
 import IMG_3460_jpg from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Europe Trip 2024\\Paris\\IMG_3460_jpg.jpg";
-import langkawi1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_06_Langkawi_Swimming_Festival\\0ffab240-b4de-42b9-a214-dd5e276d8ece.jpg";
-import langkawi2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\954950d1-dc3e-4a9d-a8d6-6ce12817cc1c.jpg";
-import IMG_3293 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Kapas_Marang_Swimathon\\IMG_3293.jpg";
-import IMG_3155 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_03_PD_FreeAndEasy_SelfTraining\\IMG_3155.jpg";
-import pdClassic1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_02_PD_Classic\\6b2ed861-61b5-4804-9987-622d30a213ea.jpg";
-import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_01_PD_OWS_Clinic\\IMG_3048.jpg";
-import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_Swimming_Squad\\squad_1.jpg";
+import langkawi1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_06_Langkawi_Swimming_Festival\\0ffab240-b4de-42b9-a214-dd5e276d8ece.jpg";
+import langkawi2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\954950d1-dc3e-4a9d-a8d6-6ce12817cc1c.jpg";
+import IMG_3293 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_05_Kapas_Marang_Swimathon\\IMG_3293.jpg";
+import IMG_3155 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_03_PD_FreeAndEasy_SelfTraining\\IMG_3155.jpg";
+import pdClassic1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_02_PD_Classic\\6b2ed861-61b5-4804-9987-622d30a213ea.jpg";
+import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_01_PD_OWS_Clinic\\IMG_3048.jpg";
+import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
 document

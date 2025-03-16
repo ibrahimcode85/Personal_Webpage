@@ -5,10 +5,10 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Imports for interests_PulauTenggolDivingTrip.html
-import img1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\954950d1-dc3e-4a9d-a8d6-6ce12817cc1c.jpg";
-import img2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\2345c4d7-1ab3-4680-a77d-dc1a3993ba0d.jpg";
-import img3 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\GOPR0066_adj.JPG";
-import img4 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\GOPR0072.JPG";
+import img1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\954950d1-dc3e-4a9d-a8d6-6ce12817cc1c.jpg";
+import img2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\2345c4d7-1ab3-4680-a77d-dc1a3993ba0d.jpg";
+import img3 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\GOPR0066_adj.JPG";
+import img4 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_05_Pulau_Tenggol_FreeDiving_Trip\\GOPR0072.JPG";
 
 // Setting image sources for interests_PulauTenggolDivingTrip.html
 document

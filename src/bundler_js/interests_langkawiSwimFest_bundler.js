@@ -5,10 +5,10 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Imports for interests_langkawiSwimFest.html
-import img1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_06_Langkawi_Swimming_Festival\\0ffab240-b4de-42b9-a214-dd5e276d8ece.jpg";
-import img2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_06_Langkawi_Swimming_Festival\\Screenshot 2024-07-07 213627.png";
-import img3 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_06_Langkawi_Swimming_Festival\\IMG_6100_jpg.jpg";
-import img4 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_06_Langkawi_Swimming_Festival\\020dcfa6-555d-45b3-ac50-b54d1bc6f17c.jpg";
+import img1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_06_Langkawi_Swimming_Festival\\0ffab240-b4de-42b9-a214-dd5e276d8ece.jpg";
+import img2 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_06_Langkawi_Swimming_Festival\\Screenshot 2024-07-07 213627.png";
+import img3 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_06_Langkawi_Swimming_Festival\\IMG_6100_jpg.jpg";
+import img4 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_06_Langkawi_Swimming_Festival\\020dcfa6-555d-45b3-ac50-b54d1bc6f17c.jpg";
 
 // Setting image sources for interests_langkawiSwimFest.html
 document
