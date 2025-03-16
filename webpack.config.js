@@ -25,6 +25,7 @@ module.exports = {
       "./src/bundler_js/interests_perhentianChallenge_bundler.js",
     interests_sub14: "./src/bundler_js/interests_training_PB_bundler.js",
     interests_sub15: "./src/bundler_js/interests_MFC2024_bundler.js",
+    interests_sub16: "./src/bundler_js/interests_DNFWorkshop_bundler.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -144,6 +145,11 @@ module.exports = {
       template: "./src/interests_subpages/interests_MFC2024.html",
       filename: "interests_subpages/interests_MFC2024.html",
       chunks: ["interests_sub15"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_DNFWorkshop.html",
+      filename: "interests_subpages/interests_DNFWorkshop.html",
+      chunks: ["interests_sub16"],
     }),
   ],
 };
