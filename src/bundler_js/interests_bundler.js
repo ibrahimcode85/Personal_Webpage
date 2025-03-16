@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_dnfWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_12_17_DNF_Workshop_Penang\\f1ac2bd2ad211b23745a073df3dc3d01.jpg";
 import img_mfc24 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_11_MFC_FreeDiving\\ef40bb82-cf50-49e6-be3f-493e52266c39.jpg";
 import img_compTraining from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_10_CompetitiveTraining_FreeDiving\\35b80cf2-e23a-4d66-8f3f-1ca3555db9c2.jpg";
 import img_perhentian from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_10_PerhentianChallenge\\b5a1553d-d74f-4369-9361-3661611e4412.jpg";
@@ -21,6 +22,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_01_PD
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("f1ac2bd2ad211b23745a073df3dc3d01")
+  .setAttribute("src", img_dnfWorkshop);
 document
   .getElementById("ef40bb82-cf50-49e6-be3f-493e52266c39")
   .setAttribute("src", img_mfc24);
