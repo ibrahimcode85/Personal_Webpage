@@ -167,7 +167,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/interests_subpages/interests_PenangPoolGames.html",
       filename: "interests_subpages/interests_PenangPoolGames.html",
-      chunks: ["interests_sub18"],
+      chunks: ["interests_sub19"],
     }),
   ],
 };
