@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_PbNr from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_FreeDiving_CompetitiveTraining\\Screenshot 2025-03-30 105001_jpg.jpg";
 import img_deadfish from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Deadfish_10k\\8589bda3-ce65-411f-94b4-e58e811b43a4.jpg";
 import img_dnfWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_12_17_DNF_Workshop_Penang\\f1ac2bd2ad211b23745a073df3dc3d01_jpg.jpg";
 import img_mfc24 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_11_MFC_FreeDiving\\ef40bb82-cf50-49e6-be3f-493e52266c39.jpg";
@@ -23,6 +24,10 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("Screenshot 2025-03-30 105001_jpg")
+  .setAttribute("src", img_PbNr);
+document;
 document
   .getElementById("8589bda3-ce65-411f-94b4-e58e811b43a4")
   .setAttribute("src", img_deadfish);
