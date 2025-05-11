@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_SingaporeUFC from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_05_FreeDiving_UFC_Singapore\\Screenshot 2025-03-30 101529_jpg.jpg";
 import img_PenangPoolGames from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_03_FreeDivinig_MiniPoolGames_Penang\\Screenshot 2025-02-05 183207_jpg.jpg";
 import img_PbNr from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_FreeDiving_CompetitiveTraining\\Screenshot 2025-03-30 105001_jpg.jpg";
 import img_deadfish from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Deadfish_10k\\8589bda3-ce65-411f-94b4-e58e811b43a4.jpg";
@@ -25,6 +26,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("Screenshot 2025-03-30 101529")
+  .setAttribute("src", img_SingaporeUFC);
 document
   .getElementById("Screenshot 2025-02-05 183207_jpg")
   .setAttribute("src", img_PenangPoolGames);
