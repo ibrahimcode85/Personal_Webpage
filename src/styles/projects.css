@@ -108,6 +108,9 @@ nav ul li a#projects {
 .card-projects-img {
   height: 200px;
   object-fit: scale-down;
+  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .card-projects-img {
