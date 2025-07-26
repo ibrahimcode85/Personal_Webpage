@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_tripJapan from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Japan Trip 2025\\Website\\IMG_0291(1).jpg";
 import img_WakayamaChampionship from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_06_FreeDiving_Championship_Wakayama\\Website\\Screenshot 2025-03-31 133807_jpg.jpg";
 import img_SingaporeUFC from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_05_FreeDiving_UFC_Singapore\\Screenshot 2025-03-30 101529_jpg.jpg";
 import img_PenangPoolGames from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_03_FreeDivinig_MiniPoolGames_Penang\\Screenshot 2025-02-05 183207_jpg.jpg";
@@ -27,6 +28,7 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document.getElementById("IMG_0291(1)").setAttribute("src", img_tripJapan);
 document
   .getElementById("Screenshot 2025-03-31 133807_jpg")
   .setAttribute("src", img_WakayamaChampionship);
