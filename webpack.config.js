@@ -33,6 +33,7 @@ module.exports = {
     interests_sub21: "./src/bundler_js/interests_WakayamaPoolChampionship.js",
     interests_sub22: "./src/bundler_js/interests_tripJapan.js",
     interests_sub23: "./src/bundler_js/interests_bayanPoolChallenge.js",
+    interests_sub24: "./src/bundler_js/interests_MFPG_Penang.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -193,6 +194,11 @@ module.exports = {
       template: "./src/interests_subpages/interests_bayanPoolChallenge.html",
       filename: "interests_subpages/interests_bayanPoolChallenge.html",
       chunks: ["interests_sub23"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_MFPG_Penang.html",
+      filename: "interests_subpages/interests_MFPG_Penang.html",
+      chunks: ["interests_sub24"],
     }),
   ],
 };
