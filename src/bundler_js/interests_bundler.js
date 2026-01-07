@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_MFPG26_KL from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_01_MFPG_KL\\Screenshot 2026-01-03 181358_jpg.jpg";
 import img_DNF2025 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_FreeDiving_CompetitiveTraining\\DSC03678_2.jpg";
 import img_MFPG_Penang from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_12_MFPG_Penang\\DSC03510.jpeg";
 import img_bayanPoolChallenge from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_07_FreeDiving_BayanPoolChallenge\\Website\\Screenshot 2025-05-18 203543.jpg";
@@ -31,6 +32,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("Screenshot 2026-01-03 181358")
+  .setAttribute("src", img_MFPG26_KL);
 document.getElementById("DSC03678").setAttribute("src", img_DNF2025);
 document.getElementById("DSC03510").setAttribute("src", img_MFPG_Penang);
 document
