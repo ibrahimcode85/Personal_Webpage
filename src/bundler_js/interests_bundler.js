@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_FatimaWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_01_Fatima_Workshop\\PHOTO-2025-12-22-21-35-43.jpg";
 import img_MFPG26_KL from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_01_MFPG_KL\\Screenshot 2026-01-03 181358_jpg.jpg";
 import img_DNF2025 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_FreeDiving_CompetitiveTraining\\DSC03678_2.jpg";
 import img_MFPG_Penang from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2025_12_MFPG_Penang\\DSC03510.jpeg";
@@ -32,6 +33,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("PHOTO-2025-12-22-21-35-43")
+  .setAttribute("src", img_FatimaWorkshop);
 document
   .getElementById("Screenshot 2026-01-03 181358")
   .setAttribute("src", img_MFPG26_KL);

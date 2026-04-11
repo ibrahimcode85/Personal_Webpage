@@ -36,6 +36,7 @@ module.exports = {
     interests_sub24: "./src/bundler_js/interests_MFPG_Penang.js",
     interests_sub25: "./src/bundler_js/interests_DNF2025.js",
     interests_sub26: "./src/bundler_js/interests_MFPG26_KL.js",
+    interests_sub27: "./src/bundler_js/interests_FatimaWorkshop.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -211,6 +212,11 @@ module.exports = {
       template: "./src/interests_subpages/interests_MFPG26_KL.html",
       filename: "interests_subpages/interests_MFPG26_KL.html",
       chunks: ["interests_sub26"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/interests_subpages/interests_FatimaWorkshop.html",
+      filename: "interests_subpages/interests_FatimaWorkshop.html",
+      chunks: ["interests_sub27"],
     }),
   ],
 };
