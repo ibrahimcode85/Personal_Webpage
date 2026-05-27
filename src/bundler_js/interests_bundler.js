@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_WilliamJoyWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_05_WilliamJoy_Workshop\\Event_Poster_Crop.jpg";
 import img_MFPG26_Penang_NR from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_05_MFPG_Penang\\for_website\\IMG_1046.jpeg";
 import img_FatimaWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_01_Fatima_Workshop\\PHOTO-2025-12-22-21-35-43 - Trimmed.jpg";
 import img_MFPG26_KL from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_01_MFPG_KL\\Screenshot 2026-01-03 181358_jpg.jpg";
@@ -34,6 +35,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("Event_Poster_Crop")
+  .setAttribute("src", img_WilliamJoyWorkshop);
 document.getElementById("IMG_1046").setAttribute("src", img_MFPG26_Penang_NR);
 document
   .getElementById("PHOTO-2025-12-22-21-35-43 - Trimmed")
