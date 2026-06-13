@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_BudapestChampionship from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\1b6f5fe8-e371-4c3e-82c8-09d72934a9cf.jpeg";
 import img_WilliamJoyWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_05_WilliamJoy_Workshop\\Event_Poster_Crop.jpg";
 import img_MFPG26_Penang_NR from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_05_MFPG_Penang\\for_website\\IMG_1046.jpeg";
 import img_FatimaWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_01_Fatima_Workshop\\PHOTO-2025-12-22-21-35-43 - Trimmed.jpg";
@@ -35,6 +36,9 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document
+  .getElementById("1b6f5fe8-e371-4c3e-82c8-09d72934a9cf")
+  .setAttribute("src", img_BudapestChampionship);
 document
   .getElementById("Event_Poster_Crop")
   .setAttribute("src", img_WilliamJoyWorkshop);
