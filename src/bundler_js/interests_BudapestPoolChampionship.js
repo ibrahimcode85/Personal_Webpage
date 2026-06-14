@@ -16,7 +16,8 @@ import img8 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\202
 import img9 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\CM1_2155-2.jpeg";
 import img10 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\DNF_Coverage_jpg.jpg";
 import img11 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\IMG_4476.jpeg";
-import img12 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\Ibrahim Ahmad_LauraMommicchi_BTW5249.jpeg";
+// import img12 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\Ibrahim Ahmad_LauraMommicchi_BTW5249.jpeg";
+import img12 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\DNF_UnderWater.jpg";
 import img13 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\STA_Coverage_jpg.jpg";
 import img14 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\IMG_5015.jpeg";
 import img15 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\DYN_Coverage_jpg.jpg";
@@ -44,7 +45,8 @@ document.getElementById("CM1_2155-2").setAttribute("src", img9);
 document.getElementById("DNF_Coverage_jpg").setAttribute("src", img10);
 document.getElementById("IMG_4476").setAttribute("src", img11);
 document
-  .getElementById("Ibrahim Ahmad_LauraMommicchi_BTW5249")
+  // .getElementById("Ibrahim Ahmad_LauraMommicchi_BTW5249")
+  .getElementById("DNF_UnderWater")
   .setAttribute("src", img12);
 document.getElementById("STA_Coverage_jpg").setAttribute("src", img13);
 document.getElementById("IMG_5015").setAttribute("src", img14);
