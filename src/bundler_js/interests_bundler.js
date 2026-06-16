@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_tripVienna from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Vienna Trip 2026\\IMG_1902.jpeg";
 import img_tripBudapest from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Budapest Trip 2026\\IMG_1587.jpeg";
 import img_BudapestChampionship from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_06_Championship_Budapest\\website\\1b6f5fe8-e371-4c3e-82c8-09d72934a9cf.jpeg";
 import img_WilliamJoyWorkshop from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_05_WilliamJoy_Workshop\\Event_Poster_Crop.jpg";
@@ -37,6 +38,7 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document.getElementById("IMG_1902").setAttribute("src", img_tripVienna);
 document.getElementById("IMG_1587").setAttribute("src", img_tripBudapest);
 document
   .getElementById("1b6f5fe8-e371-4c3e-82c8-09d72934a9cf")
