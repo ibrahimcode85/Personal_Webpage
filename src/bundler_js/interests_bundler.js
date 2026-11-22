@@ -4,6 +4,7 @@ import "../styles/variables.css";
 import "../scripts/main.js";
 
 // Import images
+import img_MAW5Poster from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_10_MAW5\\Event_Poster.png";
 import img_AIDAMerdekaPoster from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2026_08_Merdeka\\Poster_1.jpg";
 import img_tripVienna from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Vienna Trip 2026\\IMG_1902.jpeg";
 import img_tripBudapest from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Budapest Trip 2026\\IMG_1587.jpeg";
@@ -39,6 +40,7 @@ import IMG_3048 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\
 import squad_1 from "C:\\Users\\ibrah\\OneDrive\\Pictures\\Swimming_Freediving\\2024_Swimming_Squad\\squad_1.jpg";
 
 // Setting image sources for the main page
+document.getElementById("Event_Poster_MAW5").setAttribute("src", img_MAW5Poster);
 document
   .getElementById("AIDA_Merdeka_Team_Poster")
   .setAttribute("src", img_AIDAMerdekaPoster);
