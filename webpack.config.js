@@ -42,6 +42,8 @@ module.exports = {
     interests_sub30: "./src/bundler_js/interests_BudapestPoolChampionship.js",
     interests_sub31: "./src/bundler_js/interests_tripBudapest.js",
     interests_sub32: "./src/bundler_js/interests_tripVienna.js",
+    interests_sub33:
+      "./src/bundler_js/interests_AIDAMerdekaFreediverTeamBattle.js",
   },
   output: {
     filename: "[name].bundle.js",
@@ -248,6 +250,13 @@ module.exports = {
       template: "./src/interests_subpages/interests_tripVienna.html",
       filename: "interests_subpages/interests_tripVienna.html",
       chunks: ["interests_sub32"],
+    }),
+    new HtmlWebpackPlugin({
+      template:
+        "./src/interests_subpages/interests_AIDAMerdekaFreediverTeamBattle.html",
+      filename:
+        "interests_subpages/interests_AIDAMerdekaFreediverTeamBattle.html",
+      chunks: ["interests_sub33"],
     }),
   ],
 };
